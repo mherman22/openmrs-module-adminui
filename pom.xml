@@ -49,7 +49,7 @@
 	</modules>
 	
 	<properties>
-		<openMRSVersion>2.8.0-SNAPSHOT</openMRSVersion>
+		<openMRSVersion>2.8.1-SNAPSHOT</openMRSVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<uicommonsVersion>2.27.0-SNAPSHOT</uicommonsVersion>
 		<appuiVersion>1.19.0-SNAPSHOT</appuiVersion>

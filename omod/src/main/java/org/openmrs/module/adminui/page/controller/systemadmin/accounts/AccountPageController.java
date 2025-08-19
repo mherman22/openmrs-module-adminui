@@ -280,7 +280,7 @@ public class AccountPageController {
 		Collections.sort(customUserPropertyViewFragments);
 		model.addAttribute("customUserPropertyViewFragments", customUserPropertyViewFragments);
 
-		Map<String, Integer> propertyMaxLengthMap = new HashMap<String, Integer>();
+		Map<String, Integer> propertyMaxLengthMap = new HashMap<>();
 		propertyMaxLengthMap.put("familyName",
 		    administrationService.getMaximumPropertyLength(PersonName.class, "family_name"));
 		propertyMaxLengthMap
