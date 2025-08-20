@@ -57,6 +57,7 @@
 		<appframeworkVersion>2.19.0-SNAPSHOT</appframeworkVersion>
 		<webservicesRestVersion>2.50.0-SNAPSHOT</webservicesRestVersion>
 		<legacyuiVersion>1.23.0</legacyuiVersion>
+		<javaxServletApiVersion>4.0.1</javaxServletApiVersion>
 	</properties>
 
 	<dependencyManagement>
@@ -78,6 +79,12 @@
 				<version>${openMRSVersion}</version>
 				<type>jar</type>
 				<scope>provided</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.servlet</groupId>
+						<artifactId>servlet-api</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 						
 			<dependency>
@@ -148,7 +155,12 @@
 				<scope>provided</scope>
 			</dependency>
 
-
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${javaxServletApiVersion}</version>
+				<scope>provided</scope>
+			</dependency>
 
 		</dependencies>
 	</dependencyManagement>
