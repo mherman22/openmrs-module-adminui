@@ -16,7 +16,7 @@
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>adminui</artifactId>
-	<version>1.7.0-SNAPSHOT</version>
+	<version>2.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Admin UI Module</name>
 	<description>Administration Tools for the Reference Application</description>
@@ -56,7 +56,7 @@
 		<uiframeworkVersion>4.0.1-SNAPSHOT</uiframeworkVersion>
 		<appframeworkVersion>2.19.0-SNAPSHOT</appframeworkVersion>
 		<webservicesRestVersion>2.50.0-SNAPSHOT</webservicesRestVersion>
-		<legacyuiVersion>1.23.0</legacyuiVersion>
+		<legacyuiVersion>2.0.0-SNAPSHOT</legacyuiVersion>
 		<javaxServletApiVersion>4.0.1</javaxServletApiVersion>
 	</properties>
 
